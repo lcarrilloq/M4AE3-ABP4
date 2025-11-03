@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ejercicios M4AE3 - ABP4</title>
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Ejercicios M4AE3 - ABP4</h1>
+
+    <!-- Problema 1: Arreglo con secuencia doble -->
+    <section class="problem">
+      <h2>Problema 1: Arreglo con secuencia doble (1, 2, 4, 8...)</h2>
+      <label for="sizeInput">Tamaño del arreglo (n ≥ 0):</label>
+      <input type="number" id="sizeInput" min="0" placeholder="Ej. 5" />
+      <button id="runProblem1">Generar Arreglo</button>
+      <div id="result1" class="result"></div>
+    </section>
+
+    <!-- Problema 2: Mayor número en arreglo de 10 elementos -->
+    <section class="problem">
+      <h2>Problema 2: Mayor número en arreglo de 10 elementos</h2>
+      <label for="array10Input">Ingresa 10 números separados por espacios:</label>
+      <input type="text" id="array10Input" placeholder="Ej. 3 7 1 9 2 5 8 4 6 0" />
+      <button id="runProblem2">Encontrar Mayor</button>
+      <div id="result2" class="result"></div>
+    </section>
+
+    <!-- Problema 3: Día de la semana -->
+    <section class="problem">
+      <h2>Problema 3: Día de la semana (1=Lunes, 7=Domingo)</h2>
+      <label for="dayNumber">Número del día (1–7):</label>
+      <input type="number" id="dayNumber" min="1" max="7" placeholder="Ej. 3" />
+      <button id="runProblem3">Obtener Día</button>
+      <div id="result3" class="result"></div>
+    </section>
+
+    <!-- Problema 4: Buscar elemento en arreglo -->
+    <section class="problem">
+      <h2>Problema 4: Buscar elemento en arreglo</h2>
+      <label for="arraySearch">Arreglo (máx. 100 números, separados por espacios):</label>
+      <input type="text" id="arraySearch" placeholder="Ej. 1 3 5 3 7 3" />
+      <label for="elementToSearch">Elemento a buscar:</label>
+      <input type="number" id="elementToSearch" step="any" placeholder="Ej. 3" />
+      <button id="runProblem4">Buscar Elemento</button>
+      <div id="result4" class="result"></div>
+    </section>
+
+    <!-- Problema 5: Ordenar arreglo -->
+    <section class="problem">
+      <h2>Problema 5: Ordenar arreglo en forma ascendente</h2>
+      <label for="arrayToSort">Arreglo a ordenar (números separados por espacios):</label>
+      <input type="text" id="arrayToSort" placeholder="Ej. 5 2 8 1 9" />
+      <button id="runProblem5">Ordenar Arreglo</button>
+      <div id="result5" class="result"></div>
+    </section>
+  </div>
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
